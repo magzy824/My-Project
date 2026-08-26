@@ -94,16 +94,21 @@ header {
     height: calc(100vh - 80px);
 }
 
-.header__img--wrapper {
-    
-}
-
 .row {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+   margin: 0 auto;
 }
 
-.header__container {
-
+.home__description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+h1 {
+    font-size: 48px;
+}
+
+
